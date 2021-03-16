@@ -1,0 +1,89 @@
+body{
+    margin-left: 10%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+
+}
+.allfirst{
+    display: flex;
+}
+
+ul{
+    list-style-type: decimal;
+}
+.first{
+    background: #f8f9fa;
+    border: 1px solid silver;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    margin-left: 20%;
+    flex-direction: column;
+    float: right;
+}
+
+.first>ul{
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+.first-text{
+    width: 60%;
+}
+
+.roadmap {
+    background: #f8f9fa;
+    border: 1px solid silver;
+    padding: 10px;
+    position: absolute;
+    margin-top: 200px;
+
+}
+
+
+
+.classification{
+    margin-top: 10px;
+    background: rgb(180,250,180);
+}
+.pictures{
+    display:flex;
+    justify-content: space-around;
+
+}
+.pictures>div{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+.pictures>div>p{
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.pictures>div>img{
+    border: 1px solid silver;
+    padding: 10px;
+    background: #f8f9fa;
+}
+
+.article1{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 170px;
+}
+
+.article{
+    font-weight: bold;
+    font-size: 24px;
+}
+.flowering{
+    height: auto;
+}
+.article2{
+    font-weight: bold;
+    font-size: 20px;
+}
